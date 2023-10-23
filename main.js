@@ -65,6 +65,21 @@ if (discountPercentageNumber > 50){
 
 /* THE BMI CALCULATOR */
 
+let userWeight = prompt('How much do you weigh? (in kilograms)');
+let userHeight = prompt('How tall are you? (in meters)');
+let userWeightNumber = parseInt(userWeight);
+let userHeightNumber = parseInt(userHeight);
+let userBmi = userWeightNumber / (userHeightNumber^2);
+if (userBmi < 18.5){
+    alert('You are underweight');
+}
+if (24.9 >= userBmi && userBmi >= 18.5){
+    alert('You are normal weight');
+}
+if (userBmi >= 25){
+    alert('You are overweight');
+}
+
 /* THE LEAP YEAR CHECKER */
 
 /* THE GRADE ASSIGNER */
