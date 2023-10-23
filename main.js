@@ -82,4 +82,12 @@ if (userBmi >= 25){
 
 /* THE LEAP YEAR CHECKER */
 
+let year = prompt('Choose a year');
+let yearNumber = parseInt(year);
+if (yearNumber%4==0 && !yearNumber%100==0 || yearNumber%400==0){
+    alert('It is a leap year');
+}else{
+    alert('It is not a leap year');
+}
+
 /* THE GRADE ASSIGNER */
