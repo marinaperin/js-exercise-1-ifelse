@@ -21,6 +21,14 @@ alert('Today there is °C ' + (fahrenheitTemperatureNumber - 32) * 5 / 9);
 
 /* THE GRADE CALCULATOR */
 
+let student1Score = prompt('What is student 1 score?');
+let student2Score = prompt('What is student 2 score?');
+let student3Score = prompt('What is student 3 score?');
+let student1ScoreNumber = parseInt(student1Score);
+let student2ScoreNumber = parseInt(student2Score);
+let student3ScoreNumber = parseInt(student3Score);
+alert('The average score is ' + ((student1ScoreNumber + student2ScoreNumber + student3ScoreNumber) / 3));
+
 /* THE TIP CALCULATOR */
 
 /* THE MOVIE NIGHT */
