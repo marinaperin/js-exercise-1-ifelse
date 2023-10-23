@@ -53,6 +53,16 @@ if (userAge >= 17){
 
 /* THE DISCOUNT CALCULATOR */
 
+let originalPrice = prompt('What is the original price?');
+let discountPercentage = prompt('What is the discount percentage? (no % needed)');
+let originalPriceNumber = parseInt(originalPrice);
+let discountPercentageNumber = parseInt(discountPercentage);
+let discountAmount = originalPriceNumber * discountPercentageNumber / 100;
+let finalPrice = originalPrice - discountAmount;
+if (discountPercentageNumber > 50){
+    alert('This is a great deal!');
+}
+
 /* THE BMI CALCULATOR */
 
 /* THE LEAP YEAR CHECKER */
