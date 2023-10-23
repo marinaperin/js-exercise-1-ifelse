@@ -8,7 +8,14 @@ alert(coffeePrice * coffeeQuantityNumber);
 
 /* THE AGE CALCULATOR */
 
+let currentYear = 2023;
+let userYear = prompt('In which year were you born?');
+let userYearNumber = parseInt(userYear);
+alert(currentYear - userYearNumber);
+
 /* THE TEMPERATURE CONVERTER */
+
+
 
 /* THE GRADE CALCULATOR */
 
