@@ -91,3 +91,21 @@ if (yearNumber%4==0 && !yearNumber%100==0 || yearNumber%400==0){
 }
 
 /* THE GRADE ASSIGNER */
+
+let userTestScore = prompt('What is your test score?');
+let userTestScoreNumber = parseInt(userTestScore);
+if (userTestScoreNumber >= 90){
+    alert('You got an A!');
+}
+if (90 > userTestScoreNumber && userTestScoreNumber >= 80){
+    alert('You got a B!');
+}
+if (80 > userTestScoreNumber && userTestScoreNumber >= 70){
+    alert('You got a C!');
+}
+if (70 > userTestScoreNumber && userTestScoreNumber >= 60){
+    alert('You got a D!');
+}
+if (60 > userTestScoreNumber){
+    alert('You got an F!');
+}
