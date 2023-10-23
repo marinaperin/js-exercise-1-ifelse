@@ -39,6 +39,18 @@ alert('The tip is € ' + (totalBillNumber * tipPercentageNumber / 100));
 
 /* THE MOVIE NIGHT */
 
+let userAge = prompt('What is your age?');
+let userAgeNumber = parseInt(userAge);
+if (userAgeNumber < 13){
+    alert('You can only see PG rated movies');
+} 
+if (17 > userAgeNumber && userAgeNumber >= 13){
+    alert('You can see PG and PG-13 rated movies');
+}
+if (userAge >= 17){
+    alert('You can see all the movies');
+}
+
 /* THE DISCOUNT CALCULATOR */
 
 /* THE BMI CALCULATOR */
