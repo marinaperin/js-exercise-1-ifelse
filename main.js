@@ -31,6 +31,12 @@ alert('The average score is ' + ((student1ScoreNumber + student2ScoreNumber + st
 
 /* THE TIP CALCULATOR */
 
+let totalBill = prompt('What is the total of the bill?');
+let tipPercentage = prompt('What is the tip percentage? (no % needed)');
+let totalBillNumber = parseInt(totalBill);
+let tipPercentageNumber = parseInt(tipPercentage);
+alert('The tip is € ' + (totalBillNumber * tipPercentageNumber / 100));
+
 /* THE MOVIE NIGHT */
 
 /* THE DISCOUNT CALCULATOR */
